@@ -1,0 +1,106 @@
+.game{
+    width: 700px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+#dino{
+    width: 50px;
+    height: 50px;
+    background-image: url("img/dino.webp");
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+#cactus{
+    width: 20px;
+    height: 40px;
+    background-image: url("img/cacti---cacti2.png");
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+    animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov {
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+.jump{
+    animation: jump 1s linear;
+}
+@keyframes jump {
+    0%{
+        top: 150px;
+    }
+    30%{
+        /*top: 130px;*/
+        top: 100px;
+    }
+    50%{
+        top: 80px;
+    }
+    80%{
+        top: 130px;
+    }
+    100%{
+        top: 150px;
+    }
+}
+/*.game{*/
+/*    width: 700px;*/
+/*    height: 200px;*/
+/*    background-image: url("img/FreeVector-Grass-Field.jpg");*/
+/*    margin: auto;*/
+/*}*/
+/*#dino{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background-image: url("img/dino png.webp");*/
+/*    background-size: 50px 50px;*/
+/*    position: relative;*/
+/*    top: 150px;*/
+/*}*/
+/*#cactus{*/
+/*    width: 20px;*/
+/*    height: 40px;*/
+/*    background-image: url("img/cacti---cacti2.png");*/
+/*    background-size: 20px 40px;*/
+/*    position: relative;*/
+/*    top: 110px;*/
+/*    left: 580px;*/
+/*    animation: cactusMov 1s infinite linear;*/
+/*}*/
+/*@keyframes cactusMov {*/
+/*    0%{*/
+/*        left: 580px;*/
+/*    }*/
+/*    100%{*/
+/*        left: -20px;*/
+/*    }*/
+/*}*/
+/*.jump{*/
+/*    animation: jump 1s linear;*/
+/*}*/
+/*@keyframes jump {*/
+/*    0% {*/
+/*        top: 150px;*/
+/*    }*/
+/*    30% {*/
+/*        !*top: 130px;*!*/
+/*        top: 100px;*/
+/*    }*/
+/*    50% {*/
+/*        top: 80px;*/
+/*    }*/
+/*    80% {*/
+/*        top: 130px;*/
+/*    }*/
+/*    100% {*/
+/*        top: 150px;*/
+/*    }*/
+/*}*/
